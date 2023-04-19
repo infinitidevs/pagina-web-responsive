@@ -1,41 +1,33 @@
-# Página Web Responsive #
+# Responsive Web Page #
 
-Landing page maquetada y responsive para una tienda de gafas de sol y graduadas.
+Responsive Landing page for a sunglasses and eyeglasses store.
 
-Cuenta con los siguientes elementos:
+It has the following elements:
 
-* Etiquetas meta Open Graph, links preconnect y Google Fonts.
+* Open Graph meta tags, preconnect links and Google Fonts.
 
-* Elementos HTML header, main y footer.
+* HTML elements header, main and footer.
 
-* CSS root, reset y estilos generales.
+* CSS root, reset and general styles.
 
-* Diseño first mobile.
+* First mobile design.
 
-La mayoria de elementos se desarrollaron para que fueran responsive nativamente.
+Most elements were developed to be responsive natively.
 
-De manera posterior, se tuvieron en cuenta las siguientes dimensiones para las media querys:
+Subsequently, the following dimensions were taken into account for the media queries:
 
-* Tiny devices (phones, 375px and down)
+* Small devices (landscape phones, 576px and up)
 
-        @media only screen and (max-width: 375px) {...}
+        @media (min-width: 576px) { ... }
 
-* Extra small devices (phones, 600px and down) 
+* Medium devices (tablets, 768px and up)
+        
+        @media (min-width: 768px) { ... }
 
-        @media only screen and (max-width: 600px) {...}
+* Large devices (desktops, 992px and up)
 
-* Small devices (portrait tablets and large phones, 600px and up)
+        @media (min-width: 992px) { ... }
 
-        @media only screen and (min-width: 600px) {...}
+* Extra large devices (large desktops, 1200px and up)
 
-* Medium devices (landscape tablets, 768px and up)
-
-        @media only screen and (min-width: 768px) {...}
-
-* Large devices (laptops/desktops, 992px and up) 
-
-        @media only screen and (min-width: 992px) {...}
-
-* Extra large devices (large laptops and desktops, 1200px and up)
-
-        @media only screen and (min-width: 1200px) {...}
+        @media (min-width: 1200px) { ... }
