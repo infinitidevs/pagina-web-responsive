@@ -1,4 +1,4 @@
-# Responsive Web Page [![Netlify Status](https://api.netlify.com/api/v1/badges/309d1ba0-b7c2-4701-bb74-84b410160197/deploy-status)](https://app.netlify.com/sites/visionary-responsive-page/deploys) #
+# Responsive Web Page [![Netlify Status](https://api.netlify.com/api/v1/badges/309d1ba0-b7c2-4701-bb74-84b410160197/deploy-status?branch=main)](https://visionary-responsive-page.netlify.app/) #
 
 Responsive Landing page for a sunglasses and eyeglasses store.
 
