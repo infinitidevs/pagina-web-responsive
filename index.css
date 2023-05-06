@@ -1,5 +1,4 @@
 :root {
-    /* COLOR PALETTE */
     --ah-color-n-050: #fff;
     --ah-color-n-200: #7a7a7a;
     --ah-color-n-300: #0d6efd;
@@ -7,47 +6,34 @@
     --ah-color-n-500: #212529;
     --ah-color-n-600: #000;
 
-    /* BACKGROUND COLOR */
     --ah-color-background: var(--ah-color-n-050);
 
-    /* TYPOGRAPHY COLOR */
     --ah-color-typography-heading: var(--ah-color-n-600);
     --ah-color-typography-body: var(--ah-color-n-500);
     --ah-color-typography-price: var(--ah-color-n-500);
 
-    /* TYPOGRAPHY */
     --ah-typography-typeface: 'Lato', sans-serif;
     --ah-typography-nav-button: 'Oswald', sans-serif;
     
-
-    /* FONT SIZE */
     --ah-typography-h1: 1.9rem;
     --ah-typography-h2: 1.5rem;
     --ah-typography-h3: 1.2rem;
     --ah-typography-p: 0.8rem;
     --ah-typography-button: 0.88rem;
 
-
-    /* LETTER SPACING */
     --ah-typography-heading-spacing: 0.5rem;
     --ah-typography-content-spacing: 0.1rem;
 
-    /* GAP */
     --ah-gap: 1.5rem;
 
-    /* PADDING */
     --ah-section-padding: 1.5rem 0;
     --ah-btn-padding: 0.57rem 2rem;
 
-    /* BORDER */
     --ah-border: 0.12rem solid var(--ah-color-n-400);
     --ah-border-btn: 0.12rem solid var(--ah-color-n-050);
 
-    /* SIZING */
     --ah-image-height: 18rem;
 }
-
-/* RESET */
 
 html, body {
     box-sizing: border-box;
@@ -134,8 +120,6 @@ li {
     border: var(--ah-border);
 }
 
-/* LAYOUT */
-
 .ah-layout-flex {
     display: flex;
     justify-content: center;
@@ -193,8 +177,6 @@ li {
     transform: scaleX(1);
 }
 
-/* HIDE HAMBURGER */
-
 .ah-hamburger-label,
 .ah-hamburger {
     display: none;
@@ -202,12 +184,10 @@ li {
 
 @media screen and (max-width: 48rem) {
 
-    /* VERTICAL DISPLAY */
     .ah-section-header-layout {
         flex-direction: column;
     }
 
-    /* SHOW HAMBURGER ICON */
     .ah-hamburger-label {
         display: inline-block;
         color: var(--ah-color-typography-body);
@@ -216,18 +196,15 @@ li {
         padding: 0.6rem;
     }
 
-    /* TOGGLE SHOW/HIDE NAV */
     .ah-section-nav {
         display: none;
     }
 
-    /* WHEN CHECKED -> GENERAL SIBLING COMBINATOR */
     .ah-hamburger:checked~.ah-section-nav {
         display: block;
         padding: var(--ah-section-padding);
     }
 
-    /* COLUMN NAV ITEMS */
     .ah-section-header-nav {
         flex-direction: column;
     }
@@ -842,8 +819,6 @@ li {
     margin-top: 16px;
     max-width: 65px;
 }
-
-/* GLOBAL MEDIA QUERIES */
 
 @media screen and (max-width: 48rem) {
     :root {
