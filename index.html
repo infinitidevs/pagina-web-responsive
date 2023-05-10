@@ -19,7 +19,7 @@
         content="La tienda oficial para los que ven más allá" />
     <meta property="og:type" content="Tipo" />
     <meta property="og:url" content="" />
-    <meta property="og:image" content="https://www.carreraworld.com/apple-icon.png" />
+    <meta property="og:image" content="./assets/icons/logo-open-graph.webp"/>
 
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@visionary" />
@@ -30,7 +30,7 @@
     
     <link rel="me" href="#" />
     <link rel="canonical" href="#" />
-    <link rel="icon" href="./assets/logo.svg" sizes="48x48" type="image/svg" />
+    <link rel="icon" href="./assets/icons/logo.svg" sizes="48x48" type="image/svg" />
     
     <link ref="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,23 +73,23 @@
                 <nav role="navigation" class="ah-section-nav ah-section-nav-right">
                     <ul class="ah-layout-flex ah-section-header-nav ah-section-header-nav-right">
                         <li>
-                            <img src="https://www.ray-ban.com/rbstatichtml/assets/images/es-flag.svg"
+                            <img src="./assets/icons/es-flag.svg"
+                                alt="Flag Icon" class="ah-icons" />
+                        </li>
+                        <li>
+                            <img src="./assets/icons/location.svg"
                                 alt="Location Icon" class="ah-icons" />
                         </li>
                         <li>
-                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS43NTA3IDUuMDcxNjJDOC44OTAzNSA1LjA3MTYyIDYuNTcxNjIgNy4zOTAzNSA2LjU3MTYyIDEwLjI1MDdDNi41NzE2MiAxMC44MzYzIDYuODUxNyAxMS42NTY1IDcuNDA5NDYgMTIuNjQ3MUM3Ljk1MTU5IDEzLjYxIDguNjg4MDIgMTQuNjE2NyA5LjQ0NTMzIDE1LjU0MzVDMTAuMTk5NCAxNi40NjY1IDEwLjk1NjMgMTcuMjg4NSAxMS41MjYxIDE3Ljg4MUMxMS42MDQ4IDE3Ljk2MjggMTEuNjc5OCAxOC4wNDAxIDExLjc1MDcgMTguMTEyNkMxMS44MjE1IDE4LjA0MDEgMTEuODk2NSAxNy45NjI4IDExLjk3NTIgMTcuODgxQzEyLjU0NSAxNy4yODg1IDEzLjMwMTkgMTYuNDY2NSAxNC4wNTYgMTUuNTQzNUMxNC44MTMzIDE0LjYxNjcgMTUuNTQ5NyAxMy42MSAxNi4wOTE4IDEyLjY0NzFDMTYuNjQ5NiAxMS42NTY1IDE2LjkyOTcgMTAuODM2MyAxNi45Mjk3IDEwLjI1MDdDMTYuOTI5NyA3LjM5MDM1IDE0LjYxMSA1LjA3MTYyIDExLjc1MDcgNS4wNzE2MlpNMTEuNzUwNyAxOS41NzI5TDEyLjQ2MzIgMjAuMzI0N0wxMS43NTA3IDIxTDExLjAzODEgMjAuMzI0N0wxMS43NTA3IDE5LjU3MjlaTTQuNSAxMC4yNTA3QzQuNSA2LjI0NjIzIDcuNzQ2MjMgMyAxMS43NTA3IDNDMTUuNzU1MSAzIDE5LjAwMTMgNi4yNDYyMyAxOS4wMDEzIDEwLjI1MDdDMTkuMDAxMyAxMS4zODEyIDE4LjUwNDUgMTIuNTg0NCAxNy44OTcgMTMuNjYzNUMxNy4yNzM5IDE0Ljc3MDMgMTYuNDU2NiAxNS44Nzk2IDE1LjY2MDIgMTYuODU0M0MxNC44NjA2IDE3LjgzMjkgMTQuMDYzOCAxOC42OTc5IDEzLjQ2ODMgMTkuMzE3QzEzLjE3IDE5LjYyNzIgMTIuOTIwOSAxOS44NzcxIDEyLjc0NTQgMjAuMDUwM0MxMi42NTc2IDIwLjEzNjkgMTIuNTg4MiAyMC4yMDQ1IDEyLjU0MDIgMjAuMjUwOUwxMi40ODQ1IDIwLjMwNDRMMTIuNDY5NCAyMC4zMTg4TDEyLjQ2MzIgMjAuMzI0N0MxMi40NjMgMjAuMzI0OSAxMi40NjMyIDIwLjMyNDcgMTEuNzUwNyAxOS41NzI5QzExLjAzODEgMjAuMzI0NyAxMS4wMzgzIDIwLjMyNDkgMTEuMDM4MSAyMC4zMjQ3TDExLjAzMTkgMjAuMzE4OEwxMS4wMTY4IDIwLjMwNDRMMTAuOTYxMiAyMC4yNTA5QzEwLjkxMzEgMjAuMjA0NSAxMC44NDM3IDIwLjEzNjkgMTAuNzU1OSAyMC4wNTAzQzEwLjU4MDUgMTkuODc3MSAxMC4zMzEzIDE5LjYyNzIgMTAuMDMzIDE5LjMxN0M5LjQzNzU0IDE4LjY5NzkgOC42NDA3MyAxNy44MzI5IDcuODQxMTMgMTYuODU0M0M3LjA0NDczIDE1Ljg3OTYgNi4yMjc0NSAxNC43NzAzIDUuNjA0MjkgMTMuNjYzNUM0Ljk5Njc3IDEyLjU4NDQgNC41IDExLjM4MTIgNC41IDEwLjI1MDdaTTkuOTM3OTkgMTAuMjUwN0M5LjkzNzk5IDkuMjQ5NTcgMTAuNzQ5NSA4LjQzNzk5IDExLjc1MDcgOC40Mzc5OUMxMi43NTE4IDguNDM3OTkgMTMuNTYzMyA5LjI0OTU3IDEzLjU2MzMgMTAuMjUwN0MxMy41NjMzIDExLjI1MTggMTIuNzUxOCAxMi4wNjMzIDExLjc1MDcgMTIuMDYzM0MxMC43NDk1IDEyLjA2MzMgOS45Mzc5OSAxMS4yNTE4IDkuOTM3OTkgMTAuMjUwN1pNMTEuNzUwNyAxMC41MDk2QzExLjg5MzcgMTAuNTA5NiAxMi4wMDk2IDEwLjM5MzcgMTIuMDA5NiAxMC4yNTA3QzEyLjAwOTYgMTAuMTA3NyAxMS44OTM3IDkuOTkxNyAxMS43NTA3IDkuOTkxN0MxMS42MDc3IDkuOTkxNyAxMS40OTE3IDEwLjEwNzcgMTEuNDkxNyAxMC4yNTA3QzExLjQ5MTcgMTAuMzkzNyAxMS42MDc2IDEwLjUwOTYgMTEuNzUwNyAxMC41MDk2WiIgZmlsbD0iY3VycmVudENvbG9yIi8+Cjwvc3ZnPg=="
-                                alt="Location Icon" class="ah-icons" />
-                        </li>
-                        <li>
-                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zIDEwLjg3NUMzIDYuNTI1NzYgNi41MjU3NiAzIDEwLjg3NSAzQzE1LjIyNDIgMyAxOC43NSA2LjUyNTc1IDE4Ljc1IDEwLjg3NUMxOC43NSAxMi42NDM0IDE4LjE2NjIgMTQuMjc2OSAxNy4xODIxIDE1LjU5MTFMMjAuNjcwNSAxOS4wNzk1QzIxLjEwOTggMTkuNTE4OCAyMS4xMDk4IDIwLjIzMTIgMjAuNjcwNSAyMC42NzA1QzIwLjIzMTIgMjEuMTA5OCAxOS41MTg4IDIxLjEwOTggMTkuMDc5NSAyMC42NzA1TDE1LjU5MTEgMTcuMTgyMUMxNC4yNzY4IDE4LjE2NjEgMTIuNjQzNCAxOC43NSAxMC44NzUgMTguNzVDNi41MjU3NSAxOC43NSAzIDE1LjIyNDIgMyAxMC44NzVaTTEwLjg3NSA1LjI1QzcuNzY4NCA1LjI1IDUuMjUgNy43Njg0IDUuMjUgMTAuODc1QzUuMjUgMTMuOTgxNiA3Ljc2ODQgMTYuNSAxMC44NzUgMTYuNUMxMi40MzEzIDE2LjUgMTMuODM4MiAxNS44Njk0IDE0Ljg1NzggMTQuODQ3MkwxNC44NTc4IDE0Ljg0NzJDMTUuODczOCAxMy44Mjg1IDE2LjUgMTIuNDI2IDE2LjUgMTAuODc1QzE2LjUgNy43Njg0IDEzLjk4MTYgNS4yNSAxMC44NzUgNS4yNVoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8L3N2Zz4="
+                            <img src="./assets/icons/search.svg"
                                 alt="Search Icon" class="ah-icons" />
                         </li>
                         <li>
-                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik03LjUgOEM3LjUgNS4yMzg1OCA5LjczODU3IDMgMTIuNSAzQzE1LjI2MTQgMyAxNy41IDUuMjM4NTcgMTcuNSA4QzE3LjUgOS40ODAzIDE2Ljg1NjcgMTAuODEwNCAxNS44MzQ0IDExLjcyNTlDMTguNTg3OSAxMi45OTAxIDIwLjUgMTUuNzcxNyAyMC41IDE5VjIwQzIwLjUgMjAuNTUyMyAyMC4wNTIzIDIxIDE5LjUgMjFDMTguOTQ3NyAyMSAxOC41IDIwLjU1MjMgMTguNSAyMFYxOUMxOC41IDE1LjY4NjMgMTUuODEzNyAxMyAxMi41IDEzQzkuMTg2MjkgMTMgNi41IDE1LjY4NjMgNi41IDE5VjIwQzYuNSAyMC41NTIzIDYuMDUyMjggMjEgNS41IDIxQzQuOTQ3NzIgMjEgNC41IDIwLjU1MjMgNC41IDIwVjE5QzQuNSAxNS43NzE4IDYuNDEyMTQgMTIuOTkwMSA5LjE2NTYgMTEuNzI1OUM4LjE0MzMgMTAuODEwNCA3LjUgOS40ODAzIDcuNSA4Wk0xMi41IDVDMTAuODQzMSA1IDkuNSA2LjM0MzE0IDkuNSA4QzkuNSA5LjY1NjgyIDEwLjg0MzIgMTEgMTIuNSAxMUMxNC4xNTY4IDExIDE1LjUgOS42NTY4MiAxNS41IDhDMTUuNSA2LjM0MzE1IDE0LjE1NjggNSAxMi41IDVaIiBmaWxsPSJjdXJyZW50Q29sb3IiLz4KPC9zdmc+"
+                            <img src="./assets/icons/user.svg"
                                 alt="User icon" class="ah-icons" />
                         </li>
                         <li>
-                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CiAgPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zLjU4OTk5IDQuNTM1MTJDNC4wMjc3NyA0LjQwMzc5IDQuNDg5MTMgNC42NTIyMSA0LjYyMDQ3IDUuMDg5OTlMNS4wNjQyMiA2LjU2OTE2SDIwLjE3MjRDMjAuNDM0IDYuNTY5MTYgMjAuNjgwMiA2LjY5Mjg1IDIwLjgzNjQgNi45MDI3M0MyMC45OTI1IDcuMTEyNjEgMjEuMDQwMyA3LjM4Mzk3IDIwLjk2NTEgNy42MzQ1NEwxOC40ODI0IDE1LjkxMDNDMTguMzc3MyAxNi4yNjAzIDE4LjA1NTIgMTYuNTAwMSAxNy42ODk3IDE2LjUwMDFINi45MzEyQzYuNTY1NzQgMTYuNTAwMSA2LjI0MzU0IDE2LjI2MDMgNi4xMzg1MyAxNS45MTAzTDMuMDM1MTIgNS41NjU2QzIuOTAzNzkgNS4xMjc4MSAzLjE1MjIxIDQuNjY2NDUgMy41ODk5OSA0LjUzNTEyWk01LjU2MDc2IDguMjI0MzFMNy41NDY5NSAxNC44NDQ5SDE3LjA3MzlMMTkuMDYwMSA4LjIyNDMxSDUuNTYwNzZaTTguNTg2MzYgMTcuNzQxNEM5LjA0MzQxIDE3Ljc0MTQgOS40MTM5MyAxOC4xMTE5IDkuNDEzOTMgMTguNTY5QzkuNDEzOTMgMTguNzk3NSA5LjU5OTIgMTguOTgyOCA5LjgyNzcyIDE4Ljk4MjhDMTAuMDU2MiAxOC45ODI4IDEwLjI0MTUgMTguNzk3NSAxMC4yNDE1IDE4LjU2OUMxMC4yNDE1IDE4LjExMTkgMTAuNjEyIDE3Ljc0MTQgMTEuMDY5MSAxNy43NDE0QzExLjUyNjEgMTcuNzQxNCAxMS44OTY3IDE4LjExMTkgMTEuODk2NyAxOC41NjlDMTEuODk2NyAxOS43MTE2IDEwLjk3MDMgMjAuNjM3OSA5LjgyNzcyIDIwLjYzNzlDOC42ODUwNiAyMC42Mzc5IDcuNzU4NzggMTkuNzExNiA3Ljc1ODc4IDE4LjU2OUM3Ljc1ODc4IDE4LjExMTkgOC4xMjkzIDE3Ljc0MTQgOC41ODYzNiAxNy43NDE0Wk0xMy41NTE4IDE3Ljc0MTRDMTQuMDA4OSAxNy43NDE0IDE0LjM3OTQgMTguMTExOSAxNC4zNzk0IDE4LjU2OUMxNC4zNzk0IDE4Ljc5NzUgMTQuNTY0NyAxOC45ODI4IDE0Ljc5MzIgMTguOTgyOEMxNS4wMjE3IDE4Ljk4MjggMTUuMjA3IDE4Ljc5NzUgMTUuMjA3IDE4LjU2OUMxNS4yMDcgMTguMTExOSAxNS41Nzc1IDE3Ljc0MTQgMTYuMDM0NSAxNy43NDE0QzE2LjQ5MTYgMTcuNzQxNCAxNi44NjIxIDE4LjExMTkgMTYuODYyMSAxOC41NjlDMTYuODYyMSAxOS43MTE2IDE1LjkzNTggMjAuNjM3OSAxNC43OTMyIDIwLjYzNzlDMTMuNjUwNiAyMC42Mzc5IDEyLjcyNDIgMTkuNzExNiAxMi43MjQyIDE4LjU2OUMxMi43MjQyIDE4LjExMTkgMTMuMDk0OCAxNy43NDE0IDEzLjU1MTggMTcuNzQxNFoiIGZpbGw9ImN1cnJlbnRDb2xvciIvPgo8L3N2Zz4="
+                            <img src="./assets/icons/shopping-cart.svg"
                                 alt="Shopping Cart Icon" class="ah-icons" />
                         </li>
                     </ul>
@@ -99,17 +99,23 @@
     </header>
     <main>
         <section class="ah-section-hero">
-            <div class="ah-section-hero-container ah-layout-flex">
-            <img src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw5a61edd2/images/new-home/banners/BANNER_DOGMA_D.jpg"
-                alt="Hero Image" loading="lazy" class="ah-section-hero--banner" />
+            <article class="ah-section-hero-container ah-layout-flex">
+                <div>
+                    <picture>
+                      <source media="(max-width: 768px)" srcset="./assets/images/hero-mobile.jpg"
+                        alt="Hero Image Mobile" loading="lazy" class="ah-section-hero--banner">
+                      <img media="(min-width: 1920px)" src="./assets/images/hero.jpg"
+                        alt="Hero Image" loading="lazy" class="ah-section-hero--banner" />
+                    </picture>
+                </div>
                 <div class=" ah-section-hero-h2">
-                <h2 > Hasta 50€ de descuento en gafas de sol polarizadas</h2>
+                    <h2 > Hasta 50€ de descuento en gafas de sol polarizadas</h2>
                 </div>
                 <div class=" ah-section-hero-p">
-                <p>Elige un modelo Polarizado, Fotocromático o Chromance.</p>
+                    <p>Elige un modelo Polarizado, Fotocromático o Chromance.</p>
                 </div>
                 <a href="#" class="ah-section-hero-btn"><span>COMPRAR AHORA</span></a>
-            </div>
+            </article>
         </section>
         <section class="ah-section-promo">
             <article>
@@ -126,11 +132,11 @@
         </section>
         <section class="ah-section-double-banner ah-layout-flex">
             <article class="ah-section-double-banner-left">
-                <img src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw3d6df32d/images/new-home/banners/BANNER_SOL_D.jpg" alt="Sunglasses Image">
+                <img src="./assets/images/banner-sung.jpg" alt="Sunglasses Image">
                 <a href="#" class="ah-section-double-banner-btn"><span>COMPRAR SOL</span></a>
             </article>
             <article class="ah-section-double-banner-right">
-                <img src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw841b0917/images/new-home/banners/BANNER_VISTA_D.jpg" alt="Eyewear Image">
+                <img src="./assets/images/banner-eyeg.jpg" alt="Eyewear Image">
                 <a href="#" class="ah-section-double-banner-btn"><span>COMPRAR GRADUADAS</span></a>
             </article>
         </section>
@@ -139,12 +145,12 @@
             <div class="ah-section-featured__gallery ah-layout-flex__gallery">
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://images.ray-ban.com/is/image/RayBan/8056597755276__STD__shad__cfr.png"
+                        <img src="./assets/products/sung-1.avif"
                             alt="Ray-ban-Clubmaster-Classic">
                     </figure>
                     <section class="ah-card-details">
@@ -158,12 +164,12 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597394727__STD__shad__cfr.png"
+                        <img src="./assets/products/sung-2.avif"
                             alt="Persol-PO3264S">
                     </figure>
                     <section class="ah-card-details">
@@ -177,12 +183,12 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597546003__STD__shad__cfr.png"
+                        <img src="./assets/products/sung-3.avif"
                             alt="Emporio-Armani-EA2123">
                     </figure>
                     <section class="ah-card-details">
@@ -201,12 +207,12 @@
             <div class="ah-section-featured__gallery ah-layout-flex__gallery">
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597676373__STD__shad__cfr.png"
+                        <img src="./assets/products/eyeg-1.avif"
                             alt="POLORP-PH4151">
                     </figure>
                     <section class="ah-card-details">
@@ -220,12 +226,12 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://images.ray-ban.com/is/image/RayBan/805289445906__STD__shad__cfr.png"
+                        <img src="./assets/products/eyeg-2.avif"
                             alt="Ray-Ban-RB5228-Optics">
                     </figure>
                     <section class="ah-card-details">
@@ -239,12 +245,12 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://images.ray-ban.com/is/image/RayBan/8056597446204__STD__shad__cfr.png"
+                        <img src="./assets/products/eyeg-3.avif"
                             alt="Ray-Ban-Hexagonal-Optics">
                     </figure>
                     <section class="ah-card-details">
@@ -263,12 +269,12 @@
             <div class="ah-section-featured__gallery ah-layout-flex__gallery">
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/8056597705349__STD__shad__cfr.png"
+                        <img src="./assets/products/new-1.avif"
                             alt="Burberry-Jarvis">
                     </figure>
                     <section class="ah-card-details">
@@ -282,12 +288,12 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://images.ray-ban.com/is/image/RayBan/8056597829328__STD__shad__cfr.png"
+                        <img src="./assets/products/new-2.avif"
                             alt="Ray-Ban-Kiliane-Bio-Based">
                     </figure>
                     <section class="ah-card-details">
@@ -301,12 +307,12 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://assets.sunglasshut.com/is/image/LuxotticaRetail/7895653246942__STD__shad__cfr.png?impolicy=SGH_bgtransparent"
+                        <img src="./assets/products/new-3.webp"
                             alt="Arnette-Woland">
                     </figure>
                     <section class="ah-card-details">
@@ -325,13 +331,13 @@
             <div class="ah-section-featured__gallery ah-layout-flex__gallery">
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://media.ray-ban.com/cms/resource/image/511944/landscape_ratio144x65/400/180/5b54e76caae6208506738e2be8024d08/39C131BB7AF17A7105333FC52DF3D7A0/ww-rb-aviator-menu-eyeglasses-new.png"
-                            alt="zapatillas-London-edition">
+                        <img src="./assets/products/find-1.webp"
+                            alt="Aviator Classic">
                     </figure>
                     <section class="ah-card-details">
                         <div class="ah-card-min-details">
@@ -344,13 +350,13 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://media.ray-ban.com/cms/resource/image/659690/landscape_ratio144x65/400/180/e2aaff81dc74f3ae235510db67635972/FE4C67D8B2ACA8A6C53CC99F5059B544/8056597891097-1-.png"
-                            alt="zapatillas-London-edition">
+                        <img src="./assets/products/find-2.avif"
+                            alt="Wayfarer">
                     </figure>
                     <section class="ah-card-details">
                         <div class="ah-card-min-details">
@@ -363,13 +369,13 @@
                 </article>
                 <article class="ah-card">
                     <div>
-                        <img src="./assets/favicon.png" 
+                        <img src="./assets/icons/fav-icon.png" 
                         alt="Favorite Icon"
                         class="ah-card-fav-icon">
                     </div>
                     <figure>
-                        <img src="https://media.ray-ban.com/cms/resource/image/511862/landscape_ratio144x65/400/180/44450fd4a4f9101608a4dfded6650293/7646DE0873BBE0D43AF07D0608353FAE/ww-rb-clubmaster-menu-eyeglasses-new.png"
-                            alt="zapatilla-brooks-edicion especial">
+                        <img src="./assets/products/find-3.webp"
+                            alt="clubmaster">
                     </figure>
                     <section class="ah-card-details">
                         <div class="ah-card-min-details">
@@ -385,19 +391,19 @@
         <section class="ah-claim">
                 <article class="ah-claim-list">
                     <div class="ah-claim-item">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAB80lEQVRYCe2Wu0scURSHJxIfiVr6jhHxWVioIQTBiJ2IxMbaP8HKxs5CbG0ttPEP0MoHYrNqqmARRFGCNrLgC8WgiJX6/WBlWXbuzJ5ZtdD9wYezc88598y9556r5+X03lfgQxYLUIdvJ9zDHziGV1ETs6zDA8ThLPG8zN8aMCnPZO1537HfhkOohS9QDu1QBDvQAC+iQqLuwpQjuj4mBr/B+mG4hOsXJufwOcC0mTFtjWojI1ky1fJvwG1A5H+MqSZ+BtikDFkSqMfzNMXb/4cKs8p/KP2tJQF5Z2KvLchYYX2glEgT0A86Ygp+CUGqZPAOjmANxuEafBWWwApejTANN74R3C9VrCNwAH1uM/fIV4b0xa1uk9CRtkQM1Y9ZXXiY9tMxg2Iolq+Ciipse74RcQYmocw3evKlM1ZQAkn39Ce14RhUQzcsQSR9jOTleT34FcMQqNguQNV/AiZFTWCPWbSs+npdQv9BHdCsqAn8YCa15C3IByWhe2AfTIpaAwPMsghXoAtqFQbBrKgJ/GWmXlCnE3rW/whmRd0Ctdc4tIDO+SzMw7NK16+CF2QR9VMiRkeUGE/VPYqzs5GEBB5jXHWiRHwVFljnfA50A+qoWaSbVB1yGBZcjmEJyK8CdN5L9MMgHdNNMDcnwxw50zewAo9mWUwUWZgyZwAAAABJRU5ErkJggg==" 
+                        <img src="./assets/icons/safety-purchase.png" 
                         class="ah-claim-icon"
                         alt="Safe Purchase">
                         <p class="ah-claim-p">Finalizar la compra de forma segura</p>
                     </div>
                     <div class="ah-claim-item">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAIKADAAQAAAABAAAAIAAAAACshmLzAAAB8ElEQVRYCe2UyUoDQRRFYxzAYenC2U5w+AP/xAkRXLgUXPgJRn9AcPoLdSdEooILtwpOcUjUhSsXCiIKem7Mg6YJSXeSjgg+OHR1d1XdW69eVSTyH7+cgfqA+m30n4MpaIcT+IKaRByVa0jDFrxCEmQq9JB4Fi6hKa82zPMRDiBUEyZ+hNAnLIPFII1QTcQQyMA7ODAJNTNh4oeIpkDp74KamDBxCbfmUVsmusFMLNG2qNp2OMyotKvCW8BCRlJwBT0wAdoOr4kHvpVdmKrmNOxCM3jDTKhPKCYWmPge3CsvZqKXn1XNxCoTbnsVC7xbJnQxycQ4aDsSYKGaCLwdMwx6BhVaqZCJfZCJPihkYoDvgUxEGbAHF6AjVyrMxA0dZWIMvJkIbEKFqCoOauKWMf0gEx+QAAszocVpkSXDbaKzZO+fu0LbUczEEP9fYNrHfLku5Zq4Y7QDo6BMLILFDo0Ve/HzrMREDAG3iUbedX/M+xF29zET53z0ux2qoQy4TZzyrhOj+QJHJSZUgEnIQjywsmtAuSbeqiFuPoKYqGPQJthW2BwVP/2YkPhaGOLm3m2iwz7mnxJfh6qv3KOTq2ZV+xnY6YjS3oDQxdHIhTKRgifQqo9BR80BX6F0VRoNTDALI6CLRjedrtz/+BsZ+AYn8Y5RwDGYlwAAAABJRU5ErkJggg==" 
+                        <img src="./assets/icons/safe-payment.png" 
                         class="ah-claim-icon"
                         alt="Secure Payment">
                         <p class="ah-claim-p">Pago seguro</p>
                     </div>
                     <div class="ah-claim-item">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAQKADAAQAAAABAAAAQAAAAABGUUKwAAAC/UlEQVR4Ae2YO4sUQRSF11cqJiqKShsoaGAiBhoYiUaamQgiGBqY+htMBBUNxGANjAxENtLAQE0WTFVQkAXxgciqiCC4Pr7DdjWzQz+ruoremXvhUDVdVffce+ox1T0zY2YKmAKmgClgCpgCpoApYAqYAtOowJqOSe+i/+aOY7p2/8iAD10Hxe6/E4Jn4F8iPIVHnIOxlMk7kSVCdGuzBbYTxfs8ksuU9yJHdRr/l3IObbl3kfka3R+kh5sV1WNbUr61sbMZun8TYOgzFDs+WwGxFR66f1sBQ5+h2PGtj00Q6H9fw/hF2heA7inRLOnFhCxG+dwFrK58wZgDvtlPwhmwn+TngNdq9hrkq7bHuLOMeVUz7ght14DeGY6Cx6B3G12Sqse2LnwbCGYJaItc8AlstW+B3yS9kCe+ZxoFUM5vTIBlBaZ+BexGh3X5amhdrPYzQIm6LaAD8RaQEK1tEgR4Traf8ozPU74Gs2AvaLRJEOALWR4CN8AvoLvNOfAS3AUbQZB1+V8OIsoHh/Btw8cV8BO46/P93K930SWgHbAIIdYH3xYCuAMkwl+wFZRaH1tAzm8DvZnpE7agup5VEtPma234PuP8ek6gT/9Bk1I3I4dx/h245TZeqk19ulhffHV+inhCVkCGlwdAh8wS0EvJqRyq65na1CcDoZbhICVfEW+Vkjp1NeO6j+tNbNz0TG3qo75trS++Kj8r4uj6Ouy+0GjlnMk93aR8ssLr8g89U9tFoL6zQAdSkzkO9XN1H775JqK27aNKju9x/T5Z40htZWNCnvnwKYdSk7JN9pYOi02dBtyu2HU7LLU2W+ArIzMwerWUcI/AJnAMzIEyU5vsGzgB/uiHh+kl5yHownec/tpymsAfoHeLdQhWBZqaryqO4nlGTRcO7Wed9leB9qeguvsHUJ8MhFqGg5R8reKNcRGqI07NVxdL0TZ6NXWnuw6eFFfhFHxFom0qunMLqSw1X6q8jMcUMAVMAVPAFDAFTAFTwBQwBUyBuAr8Bx3IMuqgb3dDAAAAAElFTkSuQmCC" 
+                        <img src="./assets/icons/free-shipping.png" 
                         class="ah-claim-icon"
                         alt="Free Shipping">
                         <p class="ah-claim-p">Envío gratis</p>
@@ -444,25 +450,25 @@
                             <ul class="ah-icons-list">
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/6bmvJ2TZXo0LhH2I0n5uHM/011c3e32f29fdffaabfda6a29f9a02ff/Facebook.svg"
+                                        <img src="./assets/icons/facebook.svg"
                                         alt="Facebook">
                                     </a>
                                 </li>
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/2GFeFLSn25QGZHbEarXPLP/f5b1b291c1dbda15facad89e6247b50e/Instagram.svg"
+                                        <img src="./assets/icons/instagram.svg"
                                         alt="Instagram">
                                     </a>
                                 </li>
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/6eJE57D8jlgeaUGSykXZKP/ca83fa90270caeacea07586cc74a87b5/Youtube.svg"
+                                        <img src="./assets/icons/youtube.svg"
                                         alt="Youtube">
                                     </a>
                                 </li>
                                 <li class="ah-icons-list-item">
                                     <a href="#">
-                                        <img src="https://images.ctfassets.net/64sxq3fgbwhi/2rg8SuyooT125iw7mpTzwv/04080ca2e9faa8b489206357e9667b78/Twitter.svg"
+                                        <img src="./assets/icons/twitter.svg"
                                         alt="Twitter">
                                     </a>
                                 </li>
@@ -472,31 +478,31 @@
                             <h4 class="ah-title">Métodos de pago</h4>
                             <ul class="ah-icons-list-lower">
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://images.ctfassets.net/64sxq3fgbwhi/4pf0h3WBWpiznO5umauc6L/474804736b966a846da5f154e635904d/Mastercard.png"
+                                    <img src="./assets/icons/mastercard.png"
                                     alt="Mastercard">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://images.ctfassets.net/64sxq3fgbwhi/69dhHWMyhuWiw0uRGN4NLg/6b97b7ca83b871fd974215807b6cae1a/VISA.png"
+                                    <img src="./assets/icons/visa.png"
                                     alt="VISA">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://images.ctfassets.net/64sxq3fgbwhi/3an0bKJUx8GyjKsit13o1q/1beaa0f13d77d1e9b5e40fa062578d80/AmericanExpress.png"
+                                    <img src="./assets/icons/amex.png"
                                     alt="AmericanExpress">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dwb910c52a/images/icons/klarna.svg" 
+                                    <img src="./assets/icons/klarna.svg" 
                                     alt="Klarna">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.ray-ban.com/rbstatichtml/assets/images/paypal-dark.svg" 
+                                    <img src="./assets/icons/paypal.svg" 
                                     alt="PayPal">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.ray-ban.com/rbstatichtml/assets/images/apple-pay-light.svg" 
+                                    <img src="./assets/icons/apple-pay.svg" 
                                     alt="Apple Pay">
                                 </li>
                                 <li class="ah-icons-list-item-lower">
-                                    <img src="https://www.hawkersco.com/on/demandware.static/-/Library-Sites-Hawkers_Co_SharedLibrary/default/dw029f5071/images/icons/ssl.png" 
+                                    <img src="./assets/icons/ssl-encrypt.png"
                                     alt="SSL Secured">
                                 </li>
                             </ul>
@@ -508,7 +514,7 @@
         <section class="ah-strip">
             <div class="ah-strip-wrapper">
                 <h4 class="ah-strip-text">VISIONARY EYEWEAR STORE © 2023</h4>
-                <img src="https://www.carreraworld.com/_nuxt/33cae93821652388535bf6e01162b11a.svg" 
+                <img src="./assets/icons/logo-strip.svg" 
                 alt="Logo Strip" 
                 class="ah-strip-image">
             </div>

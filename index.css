@@ -233,7 +233,7 @@ li {
 
 .ah-section-hero-btn {
     position: absolute;
-    top: 70%;
+    top: 73%;
     left: 75%;
     transform: translate(-50%, -50%);
 
@@ -251,6 +251,7 @@ li {
 .ah-section-hero-btn:hover {
     color: var(--ah-color-n-050);
     background-color: var(--ah-color-n-400);
+    border: var(--ah-color-n-400);
 }
 
 .ah-section-hero-h2 > h2 {
@@ -268,27 +269,28 @@ li {
 
 .ah-section-hero-p > p {
     position: absolute;
-    top: 50%;
+    top: 53%;
     left: 75%;
     transform: translate(-50%, -50%);
 
     font-family: var(--ah-typography-typeface);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     color: var(--ah-color-n-050);
     place-items: center;
+    width: 448px;
 }
 
-@media screen and (max-width: 55.625rem) {
+@media screen and (max-width: 890px) {
     .ah-section-hero {
-        height: 25vh;
+        height: 35vh;
         overflow: hidden;
         margin: 0;
     }
 
     .ah-section-hero-btn {
         position: absolute;
-        top: 70%;
+        top: 65%;
         left: 75%;
         transform: translate(-50%, -50%);
 
@@ -297,7 +299,7 @@ li {
         font-weight: 600;
         place-items: center;
 
-        padding: 7px 14px 3.5px;
+        padding: 7px 14px 7px;
         background-color: transparent;
         color: var(--ah-color-n-050);
         border: var(--ah-border-btn);
@@ -306,6 +308,7 @@ li {
     .ah-section-hero-btn:hover {
         color: var(--ah-color-n-050);
         background-color: var(--ah-color-n-400);
+        border: var(--ah-color-n-400);
     }
 
     .ah-section-hero-h2 > h2 {
@@ -336,32 +339,29 @@ li {
     }
 }
 
-@media screen and (max-width: 48rem) {
-    .ah-section-hero {
-        height: 25vh;
-        overflow: hidden;
-        margin: 0;
+@media screen and (max-width: 768px) {
+    .ah-section-hero-btn {
+        background-color: var(--ah-color-n-050);
+        color: var(--ah-color-n-600);
+        border: none;
     }
 
-    .ah-section-hero--banner {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-        object-position: -55px;
-        animation: zoomBanner 3s;
+    .ah-section-hero-btn:hover {
+        color: var(--ah-color-n-050);
+        background-color: var(--ah-color-n-400);
     }
 }
 
-@media screen and (max-width: 39.25rem) {
+@media screen and (max-width: 628px) {
     .ah-section-hero {
-        height: 25vh;
+        height: 35vh;
         overflow: hidden;
         margin: 0;
     }
 
     .ah-section-hero-btn {
         position: absolute;
-        top: 75%;
+        top: 79%;
         left: 50%;
         transform: translate(-50%, -50%);
 
@@ -373,7 +373,7 @@ li {
         padding: 7px 14px 3.5px;
         background-color: var(--ah-color-n-050);
         color: var(--ah-color-n-600);
-        border: var(--ah-border-btn);
+        border: none;
     }
 
     .ah-section-hero-btn:hover {
@@ -383,7 +383,7 @@ li {
 
     .ah-section-hero-h2 > h2 {
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 50%;
         transform: translate(-50%, -50%);
 
@@ -392,6 +392,12 @@ li {
         font-weight: 400;
         color: var(--ah-color-n-050);
         place-items: center;
+    }
+}
+
+@media screen and (max-width: 375px) { 
+    .ah-section-hero-btn {
+        display: none;
     }
 }
 
